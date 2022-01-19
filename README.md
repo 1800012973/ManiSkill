@@ -21,7 +21,7 @@ For **no external annotation**  track, we simply use the models trained in no in
 
 The environment requirement is the same as the original ManiSkill-Learn repository.
 
-For training, execute the `EEPOSE.sh` or `sac_train.sh` in `/configs`
+For training, execute the `run_bc_EEPOSE.sh` or `run_SAC.sh` in `/scripts`
 
 For testing, execute the test command shown [here](https://github.com/haosulab/ManiSkill-Learn#download-data---quick-example) in directory `submission_eepose3` or `submission_RL`.
 

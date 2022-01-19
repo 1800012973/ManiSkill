@@ -80,7 +80,7 @@ class UserPolicy(BasePolicy):
 
         self.agent = build_brl(cfg.agent)
         load_checkpoint(self.agent,
-            str(pathlib.Path('./chair_750000.ckpt').resolve()),
+            str(pathlib.Path('./drawer_900000.ckpt').resolve()),
             map_location='cpu'
         )
         self.agent.to('cuda')  # dataparallel not done here
